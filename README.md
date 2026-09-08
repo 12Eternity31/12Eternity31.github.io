@@ -2,7 +2,8 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>xysjb1-create 的技术博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12Eternity31 的技术博客</title>
     <style>
         body {
             background: #f6f8fa;
@@ -60,7 +61,7 @@
 </head>
 <body>
 
-    <h1>xysjb1-create 的技术博客</h1>
+    <h1>12Eternity31 的技术博客</h1>
 
     <!-- 文章列表 -->
     <ul class="post-list">
@@ -68,9 +69,10 @@
             <a href=" ">我的第一个博客</a >
             <span class="post-date">2026-09-08</span>
         </li>
+        <!-- 以后添加新文章，复制上面这一行，改掉标题和锚点即可 -->
     </ul>
 
-    <!-- 第一篇文章 -->
+    <!-- 第一篇文章的内容 -->
     <div class="post-content" id="post1">
         <h2>我的第一个博客</h2>
         <p style="background-color: black; color: red; font-size: 30px; padding: 20px; text-align: center;">
