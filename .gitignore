@@ -1,0 +1,23 @@
+# ---------- Hexo ----------
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy_git/
+.deploy*/
+.hexo*/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------- 临时文件 ----------
+_tmp_theme/
+*.zip
+
+# 但主题目录要提交（GitHub Actions 构建时需要）
+!themes/butterfly/

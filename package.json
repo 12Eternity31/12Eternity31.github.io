@@ -1,0 +1,40 @@
+{
+  "name": "12eternity31-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "12Eternity31 的网络安全 WriteUp 博客（Hexo + Butterfly）",
+  "scripts": {
+    "build": "node build.js",
+    "server": "hexo server",
+    "clean": "hexo clean",
+    "new": "hexo new",
+    "deploy": "node build.js"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "ctf",
+    "writeup",
+    "security"
+  ],
+  "author": "12Eternity31",
+  "license": "MIT",
+  "type": "commonjs",
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "^7.3.0",
+    "hexo-cli": "^4.3.2",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-searchdb": "^1.5.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-wordcount": "^6.0.1"
+  }
+}

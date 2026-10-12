@@ -1,0 +1,146 @@
+# ============================================================
+#  Butterfly 主题配置（只写改动的项，其余自动用主题默认值）
+#  完整可选项见 themes/butterfly/_config.yml
+# ============================================================
+
+# ---------- 导航栏 ----------
+nav:
+  logo:
+  display_title: true
+  fixed: true
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-user-secret
+
+# ---------- 头像 / 首页大图 ----------
+avatar:
+  img: https://avatars.githubusercontent.com/12Eternity31
+  effect: false
+
+# 首页顶部打字机副标题
+subtitle:
+  enable: true
+  effect: true
+  typed_text: 'CTF WriteUp;靶场渗透记录;Web 漏洞复现;内网渗透学习;红队成长之路'
+
+# 首页大图（可以用纯色/渐变，不依赖外部图床）
+index_img: /img/bg.svg
+background: /img/bg.svg
+
+# ---------- 社交图标 ----------
+social:
+  fab fa-github: https://github.com/12Eternity31 || GitHub || '#24292e'
+
+# ---------- 文章设置 ----------
+post_meta:
+  page:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: true
+  style_simple: false
+
+# 代码块：显示语言 + 行号 + 一键复制
+code_blocks:
+  theme: darker
+  macStyle: false
+  height_limit: false
+  word_wrap: false
+  copy: true
+  language: true
+  shrink: false
+  fullpage: false
+
+# 文章底部的上一篇/下一篇 + 相关文章
+post_pagination: 1
+related_post:
+  enable: true
+  limit: 6
+  date_type: created
+
+# ---------- 搜索（本地搜索，不依赖第三方）----------
+local_search:
+  enable: true
+  preload: true
+  top_n_per_article: 1
+  unescape: false
+  CDN:
+
+# ---------- 深色模式 ----------
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1     # 跟随系统，可手动切换
+
+# ---------- 右下角按钮 ----------
+rightside:
+  readmode: true
+  translate: false
+  darkmode: true
+  hide: true
+  vonly: false
+  fontawesome: true
+  toc: true
+  chat: false
+  comment: false
+  bottom: true
+
+# ---------- 页脚 ----------
+footer:
+  nav:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: false
+  custom_text: 记录每一次 GetShell 的思路 · 仅供学习交流
+
+# ---------- 数学公式 / 图表（writeup 常用）----------
+mathjax:
+  enable: true
+  per_page: false
+  cdn:
+
+mermaid:
+  enable: true
+  code_write: false
+
+# ---------- 字数统计 ----------
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# ---------- 其他 ----------
+anchor:
+  button:
+    enable: false
+brightness:
+  enable: false
+instantpage: true
+lazyload:
+  enable: true
+  field: site
+  placeholder:
+  blur: false
+pangu:
+  enable: true

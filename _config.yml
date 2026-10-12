@@ -1,0 +1,90 @@
+# ============================================================
+#  Hexo 主配置  —— 12Eternity31 的安全笔记
+#  站点: https://12eternity31.github.io
+# ============================================================
+
+# ---------- 站点 ----------
+title: 12Eternity31 的安全笔记
+subtitle: 'CTF WriteUp / 靶场渗透 / 漏洞复现'
+description: '网络安全专业学生的做题记录与知识沉淀：CTF、靶机渗透、Web 漏洞、内网渗透'
+keywords: CTF,WriteUp,渗透测试,网络安全,靶场,漏洞复现
+author: 12Eternity31
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# ---------- 网址 ----------
+url: https://12eternity31.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+# ---------- 目录 ----------
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# ---------- 写作 ----------
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: '    '
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# ---------- 首页 / 分类 / 标签 ----------
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+default_category: 未分类
+category_map:
+tag_map:
+meta_generator: true
+
+# ---------- 日期 ----------
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+# ---------- 分页 ----------
+per_page: 10
+pagination_dir: page
+
+# ---------- 主题 ----------
+theme: butterfly
+
+# ---------- 部署（由 GitHub Actions 负责，这里留空）----------
+deploy:
+  type: ''
+
+# ---------- 本地搜索（供 Butterfly 的 local_search 使用）----------
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
