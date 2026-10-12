@@ -182,9 +182,3 @@ location ~ /\.(git|svn|hg|DS_Store) { deny all; }
   zip2john backup.zip > hash.txt
   john hash.txt --wordlist=rockyou.txt
   ```
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

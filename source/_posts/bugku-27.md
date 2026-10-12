@@ -192,9 +192,3 @@ move_uploaded_file($_FILES['file']['tmp_name'], '/data/upload/' . $newName);
 - **黑名单绕过别只试 `.php5`**，把 4.2 ③ 那张表全试一遍。
 - **图片马不配合文件包含是没用的**，记住这个组合。
 - ⚠️ **只在 CTF 靶场里做这些**。对真实网站上传 webshell 是刑事犯罪。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

@@ -304,9 +304,3 @@ var_dump("0e123" == "0e456");    // bool(true)
 var_dump("abc" == 0);            // PHP7: true, PHP8: false
 ?>
 ```
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

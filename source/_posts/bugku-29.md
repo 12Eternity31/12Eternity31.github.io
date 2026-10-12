@@ -209,9 +209,3 @@ tcp contains "flag"
 - **提取出来的文件记得再看一遍**（套娃很常见，ZIP 里还有图片，图片里还有 ZIP）。
 - **Windows 缺 Linux 工具**：最省事的方案是装个 **Kali 虚拟机**或 **WSL**，
   一次装好 `binwalk zsteg steghide exiftool foremost`，以后所有 MISC 题都能做。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

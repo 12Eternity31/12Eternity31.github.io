@@ -90,9 +90,3 @@ python post.py
 - Windows 的 `cmd` 里双引号没问题，但 **PowerShell 里 `curl` 是 `Invoke-WebRequest` 的别名**，参数不兼容。
   - 解决：用 `curl.exe`，或者干脆用 `python` / Git Bash。
 - 忘了 `-X POST`，`-d` 其实会自动用 POST，但写清楚不容易错。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

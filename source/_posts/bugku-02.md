@@ -64,9 +64,3 @@ flag: flag{xxxxxxxx}
 ## 6. 常见坑
 - 搜 `flag` 之前先确认页面加载完了，否则 Elements 里是空的。
 - 有些题 flag 在**别的文件**里（比如 `flag.js`），要在 Network 里把加载的资源全看一遍。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

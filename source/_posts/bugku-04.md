@@ -79,9 +79,3 @@ F12 → Elements → 找到那个 `<script>` → 右键 → `Delete element` →
 ## 6. 常见坑
 - 用 `curl` 时如果返回是 302 跳转，加 `-L` 跟随：`curl -sL "地址"`。
 - 有的站点有反爬，需要加 `-A "Mozilla/5.0"`。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

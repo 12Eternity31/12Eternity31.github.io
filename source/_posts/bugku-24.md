@@ -163,9 +163,3 @@ curl -s "题目地址?file=php://filter/read=convert.base64-encode/resource=inde
 - **包含不存在的文件**：会报 Warning 但在页面上可能不显示，先打开 `display_errors` 或者看响应内容。
 - **Windows 靶机**：路径用 `C:\Windows\win.ini` 或 `../../../../boot.ini`。
 - ⚠️ **`%00` 截断在 PHP 5.3.4+ 已经修复**，现代靶机基本不能用。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

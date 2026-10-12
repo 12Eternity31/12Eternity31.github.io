@@ -74,9 +74,3 @@ curl -s "题目地址?what=flag"
   - 比如 `flag{get}` 编码后是 `flag%7Bget%7D`
   - 在线编码：<https://gchq.github.io/CyberChef/>（URL Encode 模块）
 - 拼参数时别把原来的参数删了，用 `&` 往后加。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

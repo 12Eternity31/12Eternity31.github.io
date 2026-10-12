@@ -61,9 +61,3 @@ keywords: Bugku,CTF,WriteUp,MISC
 
 ## 6. 参考
 - [MDN: HTML 注释](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Comments)
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

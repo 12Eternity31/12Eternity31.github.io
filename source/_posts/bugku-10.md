@@ -105,9 +105,3 @@ pip install pwntools
 - **Windows 没有原生 nc**，别死磕，用 WSL 或直接 `pip install pwntools` 走 Python。
 - 端口连不上？靶机可能下线了，回题目页点一下"开启环境"。
 - `strings` 搜不到 flag？那要正经逆向了，去看第 16 题"入门逆向"。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

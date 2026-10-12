@@ -75,9 +75,3 @@ curl -s "题目地址/robots.txt"
 ## 6. 常见坑
 - Elements 面板会显示 JS 动态插入的内容，`Ctrl+U` 显示的才是**真正从服务器来的**。两者都要看。
 - 有时候 flag 被 Base64 了，看到 `ZmxhZ3s=` 开头的东西就丢进 CyberChef 解一下。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-

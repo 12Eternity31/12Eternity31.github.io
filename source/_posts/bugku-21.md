@@ -177,10 +177,3 @@ sudo aireplay-ng -0 2 -a AA:BB:CC:DD:EE:FF wlan0mon
 - **太慢**：纯 CPU 爆 8 位数字要几分钟，11 位手机号要几小时。
   有 NVIDIA 显卡就上 hashcat，速度差几十倍。
 - **密码里有特殊字符**：`aircrack-ng` 命令行注意引号转义。
-
-## 7. FLAG
-```
-flag{这里填你提交成功的真实 flag}
-```
-（或者题目要求提交的 WiFi 密码原文）
-
