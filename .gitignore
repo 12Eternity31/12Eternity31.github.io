@@ -21,3 +21,6 @@ _tmp_theme/
 
 # 但主题目录要提交（GitHub Actions 构建时需要）
 !themes/butterfly/
+
+# 临时脚本
+_*.sh
